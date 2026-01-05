@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import os
 from dotenv import load_dotenv
-load_dotenv()
+
 import praw
 import re
 import pandas as pd
